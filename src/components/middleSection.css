@@ -1,0 +1,61 @@
+.middle_section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    line-height: 1.2;
+}
+
+.age {
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 30%;
+    padding: 0.2rem 2rem;
+    margin: 1rem;
+}
+
+.age p,
+.sex p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.left_section {
+    width: 40%;
+    margin: 1rem;
+}
+
+
+
+.sex {
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 50%;
+
+    height: fit-content;
+
+    padding: 0.2rem 2rem;
+
+}
+
+.age h2,
+.sex h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.left_section p:first-child {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 2rem;
+}
+
+.left_section p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}

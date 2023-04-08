@@ -1,0 +1,14 @@
+.main_info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #656565;
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+}
+
+.main_info {
+    margin: 4rem;
+    line-height: 2;
+
+}

@@ -1,0 +1,77 @@
+.chart_section {
+    padding: 4rem;
+
+    background: linear-gradient(117.76deg, #a3649f 14.61%, #5869b4 58.95%, #a2f69f 110.33%);
+    text-align: center;
+
+    line-height: 2;
+}
+
+.chart_section h1,
+.chart_section p {
+    width: 65%;
+    margin: auto;
+    color: #ffffff;
+
+}
+
+.chart_section h1 {
+    font-weight: 300;
+}
+
+.chart_section p {
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 20px 0 60px;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.card h1 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 12px;
+    color: #58aad7;
+}
+
+.card p {
+    padding: 15px 27px 0;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #58aad7;
+
+}
+
+.card img {
+    width: 70%;
+}
+
+.card button {
+    width: 80%;
+    left: 50%;
+    background: #3195cb;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 8px 0;
+    color: #fff;
+    margin-top: 3rem;
+    cursor: pointer;
+}
